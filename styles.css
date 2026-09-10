@@ -61,7 +61,7 @@
 .legacy-archive .record h3{margin:.1rem 0 .55rem}.legacy-archive .record p{margin:.5rem 0}
 .nada-essay{margin:1.7rem 0 2.2rem;padding:1.4rem 1.6rem;background:#faf8f4;border-left:3px solid var(--accent)}
 .nada-essay p{margin:.8rem 0}.nada-essay h4{margin:1.5rem 0 .45rem;font-size:17px}.nada-essay .signature{text-align:right;margin-top:1.4rem}
-@media(max-width:900px){.site-header nav .nav-item:not(.lang-item){display:none}.submenu{display:none!important}}
+@media(max-width:900px){.site-header nav{flex-wrap:wrap}.site-header nav .nav-item:not(.lang-item){display:inline-flex}.submenu{display:none!important}}
 
 /* Research detail figures: keep legacy diagrams near their native size for clarity */
 .research-detail .legacy-content img{width:auto;max-width:min(100%,460px);height:auto;margin:24px auto}
