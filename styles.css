@@ -76,3 +76,11 @@ html[lang="en"] .research-detail .legacy-content img{width:auto;max-width:min(10
 html[lang="en"] .research-detail img{max-width:100%;height:auto}
 
 @media(max-width:900px){.site-header nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px 12px}.site-header nav>a:not(.lang),.site-header nav>.nav-item:not(.lang-item){display:inline-flex}}
+@media (hover: none) and (pointer: coarse) {
+  .site-header nav .nav-item.has-submenu > a {
+    pointer-events: none;
+  }
+  .site-header nav .nav-item.has-submenu:focus-within > .submenu {
+    display: block !important;
+  }
+}
